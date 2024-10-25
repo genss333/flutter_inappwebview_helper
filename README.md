@@ -8,7 +8,6 @@ A Flutter package that provides helper functions and classes for working with In
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
