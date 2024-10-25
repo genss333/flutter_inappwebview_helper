@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@main # required!
         
       - name: '>> Dart package <<'
-        uses: k-paxian/dart-package-publisher@master
+        uses: genss333/flutter_inappwebview_helper@main
         with:
           accessToken: ${{ secrets.OAUTH_ACCESS_TOKEN }}
           refreshToken: ${{ secrets.OAUTH_REFRESH_TOKEN }}
