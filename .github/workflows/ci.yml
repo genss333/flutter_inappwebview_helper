@@ -6,7 +6,7 @@ jobs:
   publishing:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
+      - name: 'flutter_inappwebview_helper'
         uses: actions/checkout@main # required!
         
       - name: '>> Dart package <<'
