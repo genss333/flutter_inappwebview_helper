@@ -20,6 +20,7 @@ class WebviewRepository implements WebviewRepositoryInterface {
 
     await model.webViewController!.loadUrl(
       urlRequest: URLRequest(
+        headers: model.headers,
         url: Uri.parse(model.url!),
       ),
     );

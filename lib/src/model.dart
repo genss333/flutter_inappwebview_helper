@@ -7,6 +7,7 @@ class WebviewGETModel {
   final VoidCallback? getLoadingCallback;
   final Function(List<dynamic> data)? getDataCallback;
   final String? handlerName;
+  Map<String, String>? headers;
 
   WebviewGETModel({
     this.url,
@@ -14,6 +15,7 @@ class WebviewGETModel {
     this.getLoadingCallback,
     this.getDataCallback,
     this.handlerName,
+    this.headers,
   });
 }
 
