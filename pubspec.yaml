@@ -1,6 +1,6 @@
 name: flutter_inappwebview_helper
-description: "for flutter_inappwebview plugin helper"
-version: 0.0.1
+description: "A Flutter package that provides helper functions and classes for working with InAppWebView. for esier get data from webview."
+version: 1.0.0
 homepage: https://flutter.dev
 
 environment:
