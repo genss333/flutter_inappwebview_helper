@@ -11,6 +11,7 @@ Add the following line to your `pubspec.yaml` file:
 
 ## Example
 
+```dart
 class UserService extends GetxService {
   final WebViewService service;
 
@@ -19,19 +20,19 @@ class UserService extends GetxService {
   Future<void> fetchData(UserController controller) async {
     await service.get(
       model: WebviewGETModel(
-      //webViewController: controller.webViewController,
+        // webViewController: controller.webViewController,
         url: '',
         handlerName: '',
-        getDataCallback: (dataaCallback){},
-        getLoadingCallback: (){},
+        getDataCallback: (dataCallback) {},
+        getLoadingCallback: () {},
       ),
     );
   }
 
   Future<void> someAction(UserController controller) async {
-     List<Map<String, dynamic>> json = [{}];
+    List<Map<String, dynamic>> json = [{}];
 
-     final model = WebviewPOSTModel(
+    final model = WebviewPOSTModel(
       webViewController: controller.webViewController,
       funcName: "btn_01",
       handlerName: 'ProcessInsert',
